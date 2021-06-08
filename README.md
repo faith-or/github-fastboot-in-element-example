@@ -1,8 +1,11 @@
 # github-fastboot-in-element-example
 
-After setup, just visit `http://localhost:4200/?fastboot=true` and you will the error.
+With fastboot:
+![fastbootTrue](https://user-images.githubusercontent.com/3947173/121223115-0dcc0700-c83c-11eb-9c4a-97566f4759ab.gif)
 
-`http://localhost:4200/?fastboot=false` will see the correct UI. I basically took the fastboot example and wrapped it with in-element
+Without fastboot:
+![fastbootFalse](https://user-images.githubusercontent.com/3947173/121223137-1290bb00-c83c-11eb-8f3b-a168f9f56245.gif)
+
 
 ## Prerequisites
 
