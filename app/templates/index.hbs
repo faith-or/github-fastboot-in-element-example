@@ -1,7 +1,19 @@
-{{page-title "Index"}}
 
 <div id="tom-dale"></div>
 
-<GithubProfile
-  @user={{@model}}
-/>
+
+<div>Is Not Fast Boot? {{this.isNotFastBoot}}</div>
+
+<GithubWithInElement>
+  <GithubProfile
+    @user={{@model}}
+  />
+</GithubWithInElement>
+
+<Wrapper
+ @renderOut={{this.isNotFastBoot}}
+>
+  <GithubProfile
+    @user={{@model}}
+  />
+</Wrapper>
