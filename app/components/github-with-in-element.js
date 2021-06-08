@@ -1,6 +1,6 @@
 import Component from '@glimmer/component';
 
-export default class githubProfile extends Component {
+export default class githubWithInElement extends Component {
 
   get destinationElement() {
     return document ? document.getElementById('tom-dale') : null;

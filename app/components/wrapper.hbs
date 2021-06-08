@@ -1,0 +1,9 @@
+{{#if @renderOut}}
+  <div>Rendering to element</div>
+  {{#in-element this.destinationElement insertBefore=null}}
+    {{yield}}
+  {{/in-element}}
+{{else}}
+  <div>Rendering in place</div>
+  {{yield}}
+{{/if}}
