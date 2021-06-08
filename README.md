@@ -1,9 +1,11 @@
 # github-fastboot-in-element-example
 
-With fastboot:
+With fastboot (notice the flash):
+
 ![fastbootTrue](https://user-images.githubusercontent.com/3947173/121223115-0dcc0700-c83c-11eb-9c4a-97566f4759ab.gif)
 
 Without fastboot:
+
 ![fastbootFalse](https://user-images.githubusercontent.com/3947173/121223137-1290bb00-c83c-11eb-8f3b-a168f9f56245.gif)
 
 
