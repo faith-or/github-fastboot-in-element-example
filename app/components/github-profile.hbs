@@ -1,0 +1,11 @@
+{{#in-element this.destinationElement}}
+  <p>
+    Username: {{@user.login}}
+  </p>
+  <p>
+    Avatar: <img src={{@user.avatar_url}} width="32" height="32">
+  </p>
+  <p>
+    # of Public Repos: {{@user.public_repos}}
+  </p>
+{{/in-element}}
