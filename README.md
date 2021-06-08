@@ -1,7 +1,8 @@
 # github-fastboot-in-element-example
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+After setup, just visit `http://localhost:4200/?fastboot=true` and you will the error.
+
+`http://localhost:4200/?fastboot=false` will see the correct UI. I basically took the fastboot example and wrapped it with in-element
 
 ## Prerequisites
 
